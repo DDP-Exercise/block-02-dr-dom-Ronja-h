@@ -15,7 +15,22 @@
  *******************************************************/
 
 //TODO: Place one object here.
+const SAVIOR = {
+    name: "Ronja",
+    age: 19,
+    location: "hell",
+    hobbies:["reading", "gaming", "drawing"],
+    type_of_companion: "kitty cat",
+    companion:{
+        name: "Mishka",
+        age: "7 months",
+        special_skill: "peeing on my bed",
+        favourite_treat: "grass. lots of grass.",
+        favourite_toy: "my mothers plants",
+        hobbies: "hiding underneath carpets and telling stories (loudly)"
 
+    }
+}
 /*******************************************************
  *   DO NOT CHANGE THE CODE BELOW!
  *******************************************************/

@@ -27,6 +27,13 @@
  * without the risk of catching an eye infection!
  */
 
+let text = document.getElementById("message");
+text.style.background = "white";
+text.style.color = "black";
+
+let ps = document.querySelectorAll("p");
+ps[1].style.color = "black";
+ps[1].style.backgroundColor = "white";
 
 
 
@@ -35,9 +42,11 @@
  * Great job! So much easier on the eyes! Now, let's tackle those minions!
  * Can't we just remove them all together?
  */
+let ul = document.querySelector("ul");
+ul.id ="enemies";
 
-
-
+let delete_list = document.getElementById("enemies");
+delete_list.remove();
 
 /**
  * TODO 3:
@@ -45,14 +54,18 @@
  * And while at it, let the world know again, that they are back in town!
  */
 
-
+let heroes = document.getElementById("heroes_of_the_web");
+heroes.style.visibility = "visible";
+text.textContent = "Fuck green and pink!";
+ps[1].textContent = "Begone, Minions! We, the mighty heroes of the web, have returned!";
 
 /**
  * TODO 4:
  * Our Webpage is safe again! But Dr. Dom is still holding our Headline as a hostage!
  * Do your thing, savior!
  */
-
+let h1 = document.querySelector("h1");
+h1.textContent = "Old Webpage?";
 
 
 /**
@@ -63,3 +76,4 @@
  * It might sound paranoid. But I can't get rid of the feeling, that he is still here,
  * somewhere in the DOM. I can still feel his Code. Can you identify the source and remove it?
  */
+ //oki :) //
